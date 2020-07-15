@@ -50,11 +50,21 @@
             <form>
               <div class="form-input">
                 <span><i class="fa fa-user"></i></span>
-                <input type="name" placeholder="User Name" required />
+                <input
+                  type="name"
+                  placeholder="User Name"
+                  id="userName"
+                  required
+                />
               </div>
               <div class="form-input">
                 <span><i class="fa fa-lock"></i></span>
-                <input type="password" placeholder="Password" required />
+                <input
+                  type="password"
+                  placeholder="Password"
+                  id="password"
+                  required
+                />
               </div>
               <div class="row mb-3">
                 <div class="col-6 d-flex">
@@ -70,7 +80,7 @@
                 </div>
               </div>
               <div class="text-left mb-3">
-                <button type="submit" class="btn">Login</button>
+                <button type="submit" class="btn" id="login">Login</button>
               </div>
               <div class="text-white mb-3">or login with</div>
               <div class="row">
@@ -146,5 +156,6 @@
         <div class="col-lg-6 col-md-6 d-none d-md-block image-container"></div>
       </div>
     </div>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
